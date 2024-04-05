@@ -49,3 +49,17 @@ data
 
  
 - classn
+
+
+3. data에 형식에 맞게 dataset_fasterrcnn.py 수정
+
+
+4. Anaconda 가상환경 
+conda create -n fasterrcnn python=3.8
+conda activate fasterrcnn
+
+5. train
+python train_fasterrcnn_resnet50.py
+
+6. test
+python test_fasterrcnn_resnet50.py
